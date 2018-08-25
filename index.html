@@ -10,12 +10,14 @@
     <h1>
         Student Bio
     </h1>
-    <br> <br>
+    <div class="container">
+            <h2 class="name">
+                    Brett O'Connell
+                </h2>
+                <br><br><br><br>
     <img class="image" src="Headshot.png">
-    <h2>
-            Brett O'Connell
-        </h2>
-    <br>
+   
+     
     <p>
       Brett O'Connell is a 3L at the Loyola University Chicago School of Law in Chicago, Illinois. 
       Brett developed a passion for progressive advocacy early in his burgeoning legal career, externing
@@ -26,8 +28,10 @@
     that more lawyers will be required to serve the interests of data subjects and protect the rights of 
     consumers. 
     </p>
+    
+
     <br>
-    <ul>
+    <ul class="contact">
         <li>
            <strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/brett-o-connell-0b4aa481/">Connect with me.</a>
         </li>
@@ -39,12 +43,14 @@
         </li>
     </ul>
 
+</div>
+
 </body>
 <style>
 
     body {
-        width: 1024px;
-        text-align: center;
+      
+        text-align: center; 
         background-color: #2F3256;
         color: white;
         font-family: Georgia, 'Times New Roman', Times, serif;
@@ -52,31 +58,51 @@
     h1 {
         background-color: #171840;
         color: white;
-        margin-left: 25%;
-        margin-right: 25%;
+         margin-left: 0%;
+        margin-right: 60%; 
         border-style: inset;
 
 
     }
-    
+
+    .container {
+        margin-left: 0%;
+        margin-right: 30%;
+        text-align: center;
+
+    }
+
+    .name {
+        text-align: center;
+        float: left;
+    }
+
+
 
     .image {
-        border-style: inset;
+        float: left;
+        padding-right: 30px;
   
     }
+
+    p {
+        float: left;
+        width: 35%;
+        border-style:inset;
+        margin-top: -3%;
+
+    }
+
     a {
         color: yellow;
     }
-    p {
-        text-align: center;
-    border-style: dotted;
-    margin-left: 25%;
-    margin-right: 25%;
-    }
+    
     ul {
+        width: 40%;
         border-style: solid;
-        margin-left:38%;
+        margin-left:5%;
         margin-right: 38%;
+        float: left;
     }
 </style>
 </html>
